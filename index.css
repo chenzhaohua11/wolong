@@ -203,7 +203,7 @@ nav>ul>li:hover i{
 }
 .market>div{
 	width:230px;
-	height:308px;
+	height:210px;
 	float:left;
 	margin-right:66px;
 }
@@ -215,11 +215,11 @@ nav>ul>li:hover i{
 }
 .market>div>p{
 	width:200px;
-	height:108px;
+	height:70px;
 	display:block;
 	color:#515151;
 	font-size:14px;
-	margin:auto;
+	margin-left:15px;
 }
 .market>div>div{
 	margin:auto;
@@ -261,13 +261,13 @@ nav>ul>li:hover i{
 	margin:auto;
 }
 .productcenter li{
-	list-style:disc;
+	text-indent:10px;
+	background:url(arrow.png) no-repeat left center;
 }
 .center{
-	width:473px;
+	width:470px;
 	height:251px;
 	float:left;
-	overflow:hidden;
 }
 .center>p{
 	font-size:20px;
@@ -283,7 +283,7 @@ nav>ul>li:hover i{
 
 }
 .center>ul{
-	height:251px;
+	height:180px;
 	float:left;
 	margin-top:20px;
 }
@@ -311,9 +311,8 @@ nav>ul>li:hover i{
 
 }
 .tech>ul{
-	height:251px;
+	height:180px;
 	float:left;
-	margin-left:20px;
 	margin-top:20px;
 }
 .center>ul>li{
