@@ -177,10 +177,23 @@ nav>ul>li:hover i{
 	margin-left:21px;
 }
 #wanted>div{
-	width:273px;
+	width:86px;
 	height:121px;
 	background:url(wanted.png);
+	float:right;
+	margin-top:20px;
 	background-size:100%;
+}
+.btns{
+	width:64px;
+	height:20px;
+	background:#AFAFAF;
+	float:left;
+	color:white;
+	border:none;
+	border-radius:4px;
+	margin:75px 20px;
+	cursor:pointer;
 }
 .market{
 	width:1128px;
