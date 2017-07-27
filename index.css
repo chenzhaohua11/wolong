@@ -368,14 +368,6 @@ footer>ul>li>i{
 	margin-left:10px;
 	background-color:#8D8D8D;
 }
-footer>div{
-	width:125px;
-	height:48px;
-	margin-top:10px;
-	background:url('tab.png') 100%;
-	float:right;
-	margin-right:-5px;
-}
 footer>span{
 	display:block;
 	height:68px;
@@ -383,4 +375,26 @@ footer>span{
 	float:right;
 	font-size:10px;
 	color:#8D8D8D;
+}
+footer>a{
+	float:right;
+	display:block;
+	height:36px;
+	width:22px;
+	margin-top:10px;
+}
+.xl{
+	background:url(tab.png); 
+}
+.tx{
+	background:url(tab.png) -20px 0 no-repeat;
+}
+.db{
+	background:url(tab.png) -50px 0 no-repeat;
+}
+.rr{
+	background:url(tab.png) -72px 0 no-repeat;
+}
+.kj{
+	background:url(tab.png) -94px 0 no-repeat;
 }
