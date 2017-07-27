@@ -5,6 +5,10 @@
 li{
 	list-style:none;
 }
+a{
+	text-decoration:none;
+	color:#8D8D8D;
+}
 body html{
 	height:100%;
 	width:100%;
@@ -15,6 +19,7 @@ header{
 	margin:auto;
 }
 .headerleft{
+	display:block;
 	height:70px;
 	width:300px;
 	float:left;
@@ -54,27 +59,25 @@ header{
 	top:8px;
 }
 nav{
-	width:100%;
-	min-width:1128px;
+	width:1128px;
 	height:56px;
 	margin:auto;
-	overflow:hidden;
 }
 nav>ul{
 	width:1128px;
-	height:56px;
-	margin:auto;	
+	height:56px;	
+	margin:auto;
+	background-image:linear-gradient(to top, #2A2A28, #343434)
 }
 nav>ul>li{
-	width:140px;
+	width:120px;
 	height:56px;
 	border-right:1px solid #4A4A4A;
 	float:left;
+	text-align:center;
 	position:relative;
-	background-image:linear-gradient(to top, #2A2A28, #343434)
 }
 nav>ul>li>a{
-	display:block;
 	text-decoration:none;
 	font-size:18px;
 	color:#fff;
@@ -82,12 +85,13 @@ nav>ul>li>a{
 	line-height:56px;
 }
 nav>ul>li>i{
-	display:block;
-	width:140px;
+	width:120px;
 	height:9px;
 	background:#C74C4E;
 	position:absolute;
 	display:none;
+	top:56px;
+	left:0;
 }
 nav>ul>li:hover i{
 	display:block;
@@ -243,6 +247,9 @@ nav>ul>li:hover i{
 	background-color:#E5E5E5;
 	margin:auto;
 }
+.productcenter li{
+	list-style:disc;
+}
 .center{
 	width:473px;
 	height:251px;
@@ -293,6 +300,7 @@ nav>ul>li:hover i{
 .tech>ul{
 	height:251px;
 	float:left;
+	margin-left:20px;
 	margin-top:20px;
 }
 .center>ul>li{
